@@ -1,0 +1,6 @@
+nss == PI3
+DIO0 == PI4
+RST == PI1
+mosi == PH7
+miso == PH8
+SCK == PH6

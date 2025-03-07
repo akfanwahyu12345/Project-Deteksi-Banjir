@@ -1,0 +1,48 @@
+<!-- Complete Project Details at: https://RandomNerdTutorials.com/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deteksi Banjir</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <script>
+    // REPLACE WITH YOUR web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBDEm3nrxZVU3j7I_VMNwzb1KSlpXaBOh4",
+      authDomain: "deteksi-banjir-bdf54.firebaseapp.com",
+      databaseURL: "https://deteksi-banjir-bdf54-default-rtdb.firebaseio.com",
+      projectId: "deteksi-banjir-bdf54",
+      storageBucket: "deteksi-banjir-bdf54.firebasestorage.app",
+      messagingSenderId: "656222815058",
+      appId: "1:656222815058:web:72795865726eb8cf52b08b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    var database = firebase.database();
+</script>
+<script src="app.js" defer></script>
+
+</head>
+<body>
+    <h1>Data</h1>
+    <p>Reading int: <span id="reading-int"></span></p>
+    <p>Reading float: <span id="reading-float"></span></p>
+    <p>Baterai Level: <span id="reading-float1"></span></p>
+    <p>Curah Hujan: <span id="reading-float"></span></p>
+    <p>Ketinggian Air: <span id="reading-float"></span></p>
+    <p>Debit Air: <span id="reading-float"></span></p>
+    <p>Frekuensi Lora: <span id="reading-float"></span></p>
+    <p>Resiko Curah Hujan: <span id="reading-float"></span></p>
+    <p>Resiko Ketinggian Air: <span id="reading-float"></span></p>
+    <p>Resiko Debit Air: <span id="reading-float"></span></p>
+    <p>Resiko Banjir: <span id="reading-int"></span></p> 
+</body>
+</html>
